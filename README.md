@@ -44,7 +44,7 @@ uvicorn main:app --reload
 ### Start remote server
 
 ```
-USE_NGROK=true uvicorn main:app --reload
+ngrok http 8000 -region=ap -hostname=api-ceninspect.ap.ngrok.io
 ```
 
 
